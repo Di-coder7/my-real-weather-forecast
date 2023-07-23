@@ -1,0 +1,113 @@
+.main-container {
+    display: block;
+    background-image: url(https://phonoteka.org/uploads/posts/2021-05/1621445783_26-phonoteka_org-p-fon-solnechnaya-pogoda-28.jpg);
+    margin-top: 50px;
+    margin-bottom: 200px;
+    margin-left: 400px;
+    margin-right: 400px;
+    padding: 0px 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    width: fit-content;
+  }
+  
+  .container-1 {
+    display: block;
+    padding-top: 30px;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .current-day-time,
+  .currentCity,
+  .currentTemperature {
+    display: inline-block;
+    margin: 0 auto;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    text-align: center;
+    padding: 20px 40px;
+    color: #ededfa;
+    font-size: 40px;
+  }
+  .current-day-time {
+    font-size: 30px;
+  }
+  .sun-cloud {
+    font-size: 100px;
+    text-align: right;
+    padding: 0px 20px;
+  }
+  .humidity {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400px;
+    color: #a4a4c2;
+    font-size: 18px;
+    text-align: right;
+    padding: 0px 100px;
+  }
+  .temperature-discribe {
+    display: block;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    color: #e1dbac;
+  }
+  .next-day-forecast {
+    display: block;
+    text-align: center;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    background-color: rgba(215, 230, 250, 0.779);
+    margin: 0px 100px;
+    border-radius: 5px;
+    font-size: small;
+  }
+  .week {
+    display: inline-block;
+    text-align: center;
+    padding: 10px 15px;
+    margin: 0px 100px;
+    column-gap: 0px;
+  }
+  
+  p {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    font-size: 20px;
+  }
+  
+  .forecast-emojie {
+    font-size: 45px;
+    margin: 0px;
+  }
+  
+  .forecast-card {
+    display: inline-flex;
+    padding: 10px;
+    background-color: rgba(215, 230, 250, 0.779);
+    border-radius: 10px;
+    margin-left: 5px;
+  }
+  .search-button .current-button {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+  }
+  button {
+    background-color: white;
+    color: rgba(16, 72, 90, 0.734);
+    border: solid;
+    border-color: rgba(35, 72, 83, 0.62);
+    transition: all 200ms ease-in-out;
+  }
+  
+  button:hover {
+    color: rgba(255, 255, 255, 0.384);
+    background-color: rgba(46, 46, 87, 0.606);
+    cursor: pointer;
+  }
+  
