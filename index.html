@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forecast weather</title>
+    <link href="style/style.css" rel="stylesheet" type="text/css" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="container-1">
+        <div class="row">
+          <form id="search-form">
+            <input
+              id="searchCity"
+              type="text"
+              placeholder="Type the city"
+              autocomplete="off"
+              autofocus="on"
+            />
+            <button class="search-button">
+              🔍 Search</button>
+            <button class="current-button" id="current-button">
+              📍Current location
+            </button>
+          </form>
+          <div class="col">
+            <p class="current-day-time" id="currentData">Sunday 19:21</p>
+          </div>
+          <div class="col">
+            <p class="currentCity" id="currentCity">Kiew</p>
+          </div>
+          <div class="col">
+            <p class="currentTemperature">
+              <span id="currentTemperature">22</span>°C
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="container-2">
+        <div class="row">
+          <div class="col">
+            <p class="sun-cloud">🌤️</p>
+          </div>
+          <div class="col">
+            <p class="humidity">
+              Humidity: <span id="humidity">85</span>% <br />Wind:
+              <span id="wind">5</span>km/h
+            </p>
+          </div>
+        </div>
+      </div>
+      <h3 class="temperature-discribe" id="temperature-discribe">
+        <i> Mostly sunny </i>
+      </h3>
+      <h4 class="next-day-forecast">Forecast for the next 5 days</h4>
+
+      <div class="week">
+        <div class="row">
+          <div class="forecast-card" style="width: 100px;" ;>
+            <div class="forecast-item">
+              <p>Mon</p>
+              <div class="forecast-emojie">🌧️</div>
+              <p>18°C</p>
+            </div>
+          </div>
+
+          <div class="forecast-card" style="width: 100px;" ;>
+            <div class="forecast-item">
+              <p>Tue</p>
+              <div class="forecast-emojie">⛅️</div>
+              <p>18°C</p>
+            </div>
+          </div>
+
+          <div class="forecast-card" style="width: 100px;" ;>
+            <div class="forecast-item">
+              <p>Wed</p>
+              <div class="forecast-emojie">🌩️</div>
+              <p>18°C</p>
+            </div>
+          </div>
+
+          <div class="forecast-card" style="width: 100px;" ;>
+            <div class="forecast-item">
+              <p>Thu</p>
+              <div class="forecast-emojie">🌧️</div>
+              <p>18°C</p>
+            </div>
+          </div>
+
+          <div class="forecast-card" style="width: 100px;" ;>
+            <div class="forecast-item">
+              <p>Fri</p>
+              <div class="forecast-emojie">☁️</div>
+              <p>18°C</p>
+            </div>
+          </div>
+
+          <div class="forecast-card" style="width: 100px;" ;>
+            <div class="forecast-item">
+              <p>Sat</p>
+              <div class="forecast-emojie">⛈️</div>
+              <p>18°C</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
