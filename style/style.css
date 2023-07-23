@@ -110,4 +110,10 @@
     background-color: rgba(46, 46, 87, 0.606);
     cursor: pointer;
   }
-  
+  .founder {
+    text-align: center;
+    color:#0a58ca;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    font-size:15px;
+  }
